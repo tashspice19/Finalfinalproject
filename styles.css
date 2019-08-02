@@ -1,0 +1,776 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 90px;
+}
+
+.name {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: tan;
+padding-left: 20px;
+
+}
+
+.right {
+  display: flex;
+  flex-direction: flex-end;
+
+}
+
+.tab1 {
+  padding: 20px;
+  color: tan;
+  align-self: center;
+  text-decoration:none;
+}
+
+.tab2 {
+  padding: 20px;
+  color: tan;
+  align-self: center;
+  text-decoration: none;
+}
+
+.tab3 {
+  padding:20px;
+  color: tan;
+  align-self: center;
+  text-decoration: none;
+}
+
+.our-statement {
+
+  padding-top: 20px;
+  align-items: center;
+  background-color: white;
+  font-size: 70px;
+  font-family: 'Times',sans-serif;
+}
+
+.statement {
+  text-align: center;
+  background-color: white;
+  width: 1000px;
+  height: 450px;
+  border: 30px solid border;
+
+
+}
+
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+
+.background1 {
+  background-image: url("https://wallpapercave.com/wp/wp3396909.jpg");
+
+  height: 900px;
+
+}
+
+.content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.statementtwo {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size:30px;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+
+.bar {
+  height: 200px;
+  background-color: #25365C;
+}
+
+.bar-text {
+	opacity:0;
+}
+
+.bar:hover .bar-text{
+  padding-top: 40px;
+	text-align:justify;
+	color: #d89f4d;
+  opacity: .5;
+	font-size:50px;
+	font-weight:700;
+	font-family:"Times New Roman", Times,serif;
+  font-style: italic;
+  text-align: center;
+
+
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-shrink: 1;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+
+}
+.center2 {
+   display: flex;
+  justify-content: center;
+  /* this munipluates text box into center */
+  padding-top: 200px;
+}
+
+
+.trump{
+  display: flex;
+  width:440px;
+  height: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.trump:hover{
+  transform: scale(0.96);
+}
+
+.tree{
+  width: 450px;
+  height: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.tree:hover{
+  transform: scale(0.96);
+}
+
+.police{
+
+  width: 440px;
+  height: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.police:hover{
+  transform: scale(0.96);
+}
+
+.facetwo{
+  width:650px;
+  height:310px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.facetwo:hover{
+  transform: scale(0.96);
+}
+
+.face {
+  width:650px;
+  height:310px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.face:hover{
+  transform: scale(.96);
+}
+.prison {
+  width: 550px;
+  height: 300px;
+}
+
+.prison:hover{
+  transform: scale(.9);
+}
+
+.bar1 {
+  height: 200px;
+  background-color: #191919;
+}
+
+.bar1-text {
+	opacity:0;
+}
+
+.bar1:hover .bar1-text{
+  padding-top: 40px;
+	text-align:justify;
+	color: #b7b7b7;
+  opacity: .5;
+	font-size:30px;
+	font-weight:700;
+	font-family:"Times New Roman", Times,serif;
+  font-style: italic;
+  text-align: center;
+
+
+}
+
+/* Natasha  */
+.background2 {
+  background-image: url("https://images7.alphacoders.com/423/thumb-350-423169.jpg" );
+
+  height: 1200px;
+}
+
+
+
+.tash-section {
+  border:5px solid white;
+  background-color: white;
+  width:1000px;
+  height: 650px;
+
+
+
+}
+
+.center3 {
+  display: flex;
+justify-content: center;
+align-items: center;
+padding:100px;
+text-align: center;
+}
+
+.tash-title {
+  padding-top: 50px;
+  font-size: 44px;
+font-family: 'Cinzel Decorative', cursive;
+}
+
+.tash-text {
+  text-align: inherit;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  border: 10px solid black;
+  width:850px;
+  height: 467px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.padding {
+  padding-left: 70px;
+}
+
+.barbed-wire{
+  width: 300px;
+  height: 200px;
+}
+
+.barbed-wire:hover{
+  transform: scale(1.2);
+}
+
+.student {
+  width: 300px;
+  height: 200px;
+}
+
+.student:hover{
+  transform: scale(1.2);
+}
+.vox {
+  width: 300px;
+  height: 200px;
+}
+
+.vox:hover{
+  transform: scale(1.2);
+}
+.ecarceration {
+  width: 300px;
+  height: 200px;
+}
+
+.ecarceration:hover{
+  transform: scale(1.2);
+}
+
+.tash-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tash-image:hover{
+  transform: scale(1.2);
+}
+
+
+.about-us {
+text-align: center;
+border: 3px dotted skyblue;
+}
+
+.bar2 {
+  height: 200px;
+  background-color: #676767;
+}
+
+.bar2-text {
+	opacity:0;
+}
+
+.bar2:hover .bar2-text{
+  padding-top: 40px;
+	text-align:justify;
+	color: #fefefe;
+  opacity: .5;
+	font-size:30px;
+	font-weight:700;
+	font-family:"Times New Roman", Times,serif;
+  font-style: italic;
+  text-align: center;
+
+
+}
+
+/*  Tasnuva*/
+.background3 {
+  background-image: url("https://blog.techdesign.com/wp-content/uploads/2016/05/01.jpeg" );
+
+  height: 1200px;
+}
+
+
+
+.tasnuva-section {
+  border:5px solid white;
+  background-color: white;
+  width:1000px;
+  height: 650px;
+
+
+
+}
+
+.center4 {
+  display: flex;
+justify-content: center;
+align-items: center;
+padding:100px;
+text-align: center;
+}
+
+.tasnuva-title {
+  padding-top: 50px;
+  font-size: 44px;
+font-family: 'Cinzel Decorative', cursive;
+}
+
+.tasnuva-text {
+  text-align:inherit;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  border: 10px solid black;
+  width:850px;
+  height: 460px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 75px;
+  padding-bottom: 35px;
+}
+.padding1 {
+  padding-left: 70px;
+}
+
+.facial-rec {
+  height: 200px;
+  width: 300px;
+  }
+.facial-rec:hover{
+  transform: scale(1.2);
+
+}
+
+.robots {
+  width: 300px;
+  height: 200px;
+}
+.robots:hover{
+  transform: scale(1.2);
+}
+
+.nasa{
+  width: 300px;
+  height: 200px;
+}
+.nasa:hover{
+  transform: scale(1.2);
+}
+
+.art {
+  width: 300px;
+  height: 200px;
+}
+.art:hover{
+  transform: scale(1.2);
+}
+
+.tasnuva-images {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+/* Jane */
+.bar3 {
+  height: 200px;
+  background-color: #cda7e8;
+}
+
+.bar3-text {
+	opacity:0;
+}
+
+.bar3:hover .bar3-text{
+  padding-top: 40px;
+	text-align:justify;
+	color: #7140af;
+  opacity: .5;
+	font-size:35px;
+	font-weight:700;
+	font-family:"Times New Roman", Times,serif;
+  font-style: italic;
+  text-align: center;
+
+
+}
+.background4 {
+  background-image: url("https://videohive.img.customer.envatousercontent.com/files/201113931/590.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=1469a57d6707496ede4b3ffdd475116a" );
+
+  height: 1200px;
+}
+
+
+
+.jane-section {
+  border:5px solid white;
+  background-color: white;
+  width:1000px;
+  height: 650px;
+
+
+
+}
+
+.center5 {
+  display: flex;
+justify-content: center;
+align-items: center;
+padding:100px;
+text-align: center;
+}
+
+.jane-title {
+  padding-top: 50px;
+  font-size: 44px;
+font-family: 'Cinzel Decorative', cursive;
+}
+
+.jane-text {
+  text-align:inherit;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  border: 10px solid black;
+  width:850px;
+  height: 460px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.padding2 {
+  padding-left: 70px;
+}
+
+.facebook1{
+  width: 300px;
+  height: 200px;
+}
+
+.facebook1:hover{
+  transform: scale(1.2);
+}
+
+.facebook2 {
+  width: 300px;
+  height: 200px;
+}
+
+
+.facebook2:hover{
+  transform: scale(1.2);
+}
+
+.facebook3{
+  width: 300px;
+  height: 200px;
+}
+
+.facebook3:hover{
+  transform: scale(1.2);
+}
+
+.facebook4 {
+  width: 300px;
+  height: 200px;
+}
+
+.facebook4:hover{
+  transform: scale(1.2);
+}
+
+.jane-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar4 {
+  height: 200px;
+  background-color: #ffcad2;
+}
+
+.bar4-text {
+	opacity:0;
+}
+
+.bar4:hover .bar4-text{
+  padding-top: 40px;
+	text-align:justify;
+	color: #974a5e;
+  opacity: .5;
+	font-size:50px;
+	font-weight:700;
+	font-family:"Times New Roman", Times,serif;
+  font-style: italic;
+  text-align: center;
+
+
+}
+
+.background5 {
+  background-color: #d0d0d0;
+
+  height: 1100px;
+}
+
+
+.padding3 {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.program-text {
+
+    width: 900px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 27px;
+  font-family: 'Merriweather', serif;
+  color:  #0f3766;
+    justify-content: center;
+    background-color:  #ea9800;
+    text-align: inherit;
+
+
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.program {
+  width: 900px;
+  height: 200px;
+  background-color: #0f3766;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 70px;
+  font-style: bold;
+  color: #ea9800;
+
+}
+.img {
+width: 400px;
+
+}
+
+.background6 {
+  background-color: #d0d0d0;
+
+  height: 800px;
+}
+
+
+.padding4 {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.program-text1 {
+
+    width: 900px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 27px;
+  font-family: 'Merriweather', serif;
+  color: #2A3286;
+    justify-content: center;
+    background-color: #FF484F;
+    text-align: inherit;
+
+
+}
+
+.middle1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.program1 {
+  width: 900px;
+  height: 200px;
+  background-color: #2A32AD;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 70px;
+  font-style: bold;
+  color:#FF484F;
+
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img1 {
+width: 400px;
+
+}
+.about-us-h {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  background-color: #FFDDD4;
+  font-size: 70px;
+  font-family: 'Cinzel Decorative', cursive;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 100px;
+  justify-content: center;
+}
+
+/*  The big about-us section*/
+.about-us {
+background-color: #FFDDD4;
+display: flex;
+flex-direction: row;
+height: 1000px;
+border: #FFDDD4;;
+}
+
+/*  each of our text box's*/
+.about-tash {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:500px;
+
+
+}
+
+.about-tasnuva {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:500px;
+}
+
+.about-jane {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:500px;
+
+}
+
+/* each texbook */
+.tash-part{
+border: 10px solid black;
+height: 400px;
+width:400px;
+font-size: 22px;
+font-family: 'Merriweather', serif;
+padding-top: 40px;
+padding-right: 15px;
+padding-left: 15px;
+text-align: inherit;
+}
+.tasnuva-part{
+border: 10px solid black;
+height: 400px;
+width: 400px;
+font-size: 22px;
+text-align: inherit;
+font-family: 'Merriweather', serif;
+padding-top: 40px;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+.jane-part{
+border: 10px solid black;
+  height:400px;
+  width: 400px;
+  font-size: 22px;
+  font-family: 'Merriweather', serif;
+  padding-top: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: inherit;
+}
+
+.jane-photo {
+
+
+  width: 300px;
+}
+
+.natasha-photo {
+  width: 300px;
+
+}
+
+.tasnuva-photo {
+  width: 300px;
+}
